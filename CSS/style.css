@@ -47,8 +47,10 @@
   .menu-bar ul {
     list-style: none;
     display: flex;
-    justify-self: center;
     align-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
   }
   
   .menu-bar ul li {
@@ -314,11 +316,12 @@
      margin-top: 12px;
      line-height: 1.5;
      display: inline-block;
+     padding-left: 0px;
  }
 
  .prog-name .goals-list li {
      display: inline-block;
-     margin-right: 64px;
+     margin-right: 32px;
      font-size: 20px;
      font-weight: 600;
  }
