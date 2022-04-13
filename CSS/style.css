@@ -47,7 +47,9 @@
     border-bottom: 1px solid #888585;
     z-index:1;
   }
-  
+  .bars {
+    display: none;
+  }
   .menu-bar ul {
     list-style: none;
     display: flex;
