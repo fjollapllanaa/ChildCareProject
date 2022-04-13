@@ -44,11 +44,11 @@
     .hero-text {
         top: 30%;
         min-width: 55%;
-        min-height: 26rem;
+        min-height: 20rem;
     }
 
     .hero-text .play {
-        font-size: 3.8rem;
+        font-size: 3.2rem;
     }
 
     .btn {
@@ -80,7 +80,9 @@
     .menu-bar ul li a {
         font-size: 1.4rem;
     }
-
+    .menu-bar ul li {
+        padding: 0.8rem 1.6rem;
+    }    
     .menu-bar {
         max-height: 8rem;
     }
@@ -130,4 +132,90 @@
     .footer-col ul li a {
         font-size: 1.4rem;
     }
+    .footer-col .footer-info {
+        font-size: 1.4rem;
+    }
+
+    .title {
+        font-size: 4.4rem;
+    }
+
+    .step-description {
+        font-size: 1.6rem;
+    }
+
+    .goal-span,
+    .goals-list,
+    .step-age,
+    .btn
+     {
+        font-size: 1.6rem;
+    }
+
+    .about-paragraph {
+        font-size: 1.4rem;
+        margin-bottom: 4.4rem;
+    }
+}
+/* 824px */
+@media (max-width: 824px) {
+    .menu-bar img {
+        width: 25%;
+    }
+
+    .hero-text .play {
+        margin-bottom: 3.2rem;
+    }
+    .btn {
+        width: 18rem;
+    }
+    
+    html {
+        font-size: 8px;
+    }
+    
+    .footer-col img {
+        bottom: 7.6rem;
+    }
+
+    .nav-list {
+        bottom: 12.6rem;
+    }
+
+    .icons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        
+    }
+}
+
+@media (max-width: 660px) {
+    .btn {
+        width: 14rem;
+    }
+
+    .btn-reg {
+        margin-left: 2rem;
+    }
+
+    .testimonial .box {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 1.8rem;
+    }
+    
+    .hex {
+        width: 14rem;
+        height: 16.5rem;
+    }
+    .hexagon-gallery {
+        max-width: 62rem;
+        grid-auto-rows: 12rem;
+    }
+    
+    .menu-bar ul li:nth-child(3){
+        display: none;
+    }
+
 }
