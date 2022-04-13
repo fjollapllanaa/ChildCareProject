@@ -217,5 +217,49 @@
     .menu-bar ul li:nth-child(3){
         display: none;
     }
+    .menu-bar {
+        max-height: 6rem;
+    }
 
+    .hero {
+        height: 60vh;
+        background-position: top left;
+    }
+    .hero-text {
+        position: relative;
+        left: auto;
+        transform: none;
+        color: white;
+        background-color: #f3f3f3;
+        min-height: 270px;
+        padding: 4rem;
+    }
+    .hero-container {
+        margin-bottom: 0;
+    }
+    .about-container {
+        margin-top: 0;
+    }
+
+    .btn {
+        
+        font-weight: bold;
+    }
+    .btn-prg {
+        color: black;
+    }
+}
+
+@media (max-width: 510px) {
+    .stps-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .step-one-content{
+        grid-row: 2;
+    }
+    
+    .step-three-content{
+        grid-row: 6;
+    }
 }
