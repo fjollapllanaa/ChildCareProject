@@ -29,11 +29,9 @@
   }
   
   .menu-bar img {
-      position: relative;
-      right: 7rem;
-      cursor: pointer;
-      width: 30%;
-  }
+    cursor: pointer;
+    max-width: 15vw;
+}
   
   .menu-bar {
     background-color: rgba(0, 0, 0, 0.6);
@@ -41,8 +39,8 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 5%;
+    align-items: center;    
+    padding: 1% 2%;
     position: fixed;
     border-bottom: 1px solid #888585;
     z-index:1;
@@ -251,9 +249,11 @@
     cursor: pointer;
 }
 
-.icons h2 {   
-    font-size: 2.4rem;
-    margin-bottom: 1.6rem;
+.icons h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.6rem;
+  letter-spacing: -0.08rem;
+  text-align: center;
 }
 
 .icon-paragraph {
@@ -264,7 +264,6 @@
 .icons .learn-more-btn {
     padding: 1.2rem 0.8rem;
     font-size: 2rem;
-    margin-bottom: 10rem;
     text-decoration: none;
     width: 16rem;
     text-align: center;
@@ -670,11 +669,8 @@
 }
 
 .footer-col img {
-    position: relative;
-    right: 6.4rem;
-    bottom: 9.6rem;
-    cursor: pointer;
-    width: 80%;
+  cursor: pointer;
+  width: 15vw;
 }
 
 .footer-col h4 {
@@ -685,7 +681,7 @@
 	position: relative;
 }
 
-.footer-col h4::before {
+.footer-col h4::before:not(:first-child) {
 	content: '';
 	position: absolute;
 	left:0;
@@ -759,8 +755,4 @@
   padding: 3%;
 }
 
-.nav-list {
-  position: relative;
-  bottom: 15.6rem;
-  left: 1.2rem;
-}
+
