@@ -151,6 +151,10 @@
      {
         font-size: 1.6rem;
     }
+    .testimonial .box .content 
+    {
+        text-align: center;
+    }
 
     .about-paragraph {
         font-size: 1.4rem;
@@ -273,9 +277,10 @@
     .menu-bar img {
         width: 35%;
     }
-    .menu-bar .dropdown-bars {
+    .menu-bar .dropdown-bars .menu{
         display: none;
     }
+
     .bars {
         display: inline;
         color: white;
@@ -283,6 +288,25 @@
         cursor: pointer;
     }
 
+    .bars a {
+        display: none;
+    }
+
+    .menu-bar .dropdown-bars i:hover a {
+        display: block;
+        position: absolute;
+        min-width: 18rem;
+        right: 0;
+        top: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 2;
+        
+        font-family: sans-serif;
+        font-weight: 500;
+      }
+      .sign {
+          text-decoration: none;
+      }
     .hero-text .play {
         margin-bottom: 6.2rem;
     }
@@ -378,5 +402,6 @@
     .icon-informations {
         gap: 2.4rem;
     }
+    
    
 }
