@@ -281,18 +281,18 @@
         display: none;
     }
 
-    .bars {
+    .bars1 {
         display: inline;
         color: white;
         font-size: 2.4rem;
         cursor: pointer;
     }
 
-    .bars a {
+    .dropdown-bars1 .bars1 #menu {
         display: none;
     }
 
-    .menu-bar .dropdown-bars i:hover a {
+    .menu-bar .dropdown-bars1 i:hover #menu {
         display: block;
         position: absolute;
         min-width: 18rem;
